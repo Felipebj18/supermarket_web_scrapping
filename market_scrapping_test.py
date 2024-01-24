@@ -60,7 +60,6 @@ for name, link in categories.items():
     except requests.exceptions.RequestException as e:
         print(f"Error al obtener el documento HTML para '{name}': {e}")
 
-print(lista_html[0])
 # Ahora, la lista_html contiene el HTML de cada enlace en tu diccionario
 # Puedes procesar estos documentos HTML según tus necesidades.
 
